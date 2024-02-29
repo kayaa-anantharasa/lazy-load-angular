@@ -1,5 +1,5 @@
-button {
-  padding: 20px;
+/* button {
+  padding: 12px;
   color: white;
   background-color: rgb(43, 139, 154);
   margin-right: 10px;
@@ -8,4 +8,31 @@ button {
 
 button:hover {
   background-color: rgb(19, 95, 107);
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2596be;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:rgba(236,145,82,255);
+}
+/* 
+.active {
+  background-color: #25728e;
+} */
