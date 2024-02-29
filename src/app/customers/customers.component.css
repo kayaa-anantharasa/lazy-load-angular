@@ -1,0 +1,15 @@
+aside {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background-color: #9D9F9D;
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #eaeaea;
+    text-align: center;
+}
